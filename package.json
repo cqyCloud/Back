@@ -1,0 +1,31 @@
+{
+  "name": "Back",
+  "version": "1.0.0",
+  "description": "backendinter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cqyCloud/Back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cqyCloud/Back/issues"
+  },
+  "homepage": "https://github.com/cqyCloud/Back#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.12.3",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.1",
+    "mongoose": "^5.8.4",
+    "pug": "^2.0.4"
+  }
+}
