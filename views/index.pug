@@ -1,0 +1,24 @@
+extends ./layout/layout
+
+block css
+    link(rel="stylesheet",href="/css/index.css")
+
+block contents
+    include ./layout/tag
+
+    .layui-container
+        .layui-row.layui-col-space15
+            //-文章列表
+            .layui-col-md8
+                ul.article-list
+                    li index.html
+                    li 这是pug渲染出来的首页
+            //-下侧换页
+            include ./layout/laypage.pug
+
+        //-右侧公告
+        include ./layout/right_tag
+
+block scripts
+    script(src="/js/index.js")
+                
