@@ -1,34 +1,20 @@
-.blog-header.layui-bg-blck
-    .layui-container
-        ul.layui-nav
-            li.layui-nav-item#haha
-                a(href="/")
-                i.layui-icon.layui-icon-home
-                | 首页
-            li.layui-nav-item
-                a(href="/") Vue
-            li.layui-nav-item
-                a(href="/") Vue
-            li.layui-nav-item
-                a(href="/") Vue
-            li.layui-nav-item
-                a(href="/") 关于博主
-        //- 用户登录按钮
-        ul.layui-nav.blog-user
-            //- if session && !session.isNew
-                li.layui-nav-item
-                    a(href=session.role > 1 ? "/admin/user" : "/admin/article")个人中心
-                    //-span.layui-badge-dot
-                li.layui-nav-item
-                    a(href="")
-                        //-用户测试头像
-                        img(src=session.avatar).layui-nav-img
-                        span=session.username
-                    dl.layui-nav-child
-                        dd
-                            a(href="/user/logout")退了
-            //- else user/login user/reg
-            li.layui-nav-item
-                a(href="/") 登录
-            li.layui-nav-item
-                a(href="/") 注册
+.layui-header 
+    .layui-logo 后台
+    ul.layui-nav.layui-layout-left
+        li.layui-nav-item 
+            a(href="") 控制台
+        li.layui-nav-item 
+            a(href="") 控制台
+        li.layui-nav-item 
+            a(href="") 控制台
+        li.layui-nav-item
+            a(href="javascript:;") 其他系统
+                span.layui-nav-more
+            dl.layui-nav-child.layui-anim.layui-anim-upbit
+                dd
+                    a(href) 邮件管理
+                dd
+                    a(href) 邮件管理
+                dd
+                    a(href) 邮件管理
+
